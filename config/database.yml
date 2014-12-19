@@ -27,8 +27,11 @@
 development:
   adapter: postgresql
   database: dimension_development
+  username: lasernite
+  password:
   pool: 5
   timeout: 5000
+
 test:
   adapter: postgresql
   database: dimension_test
