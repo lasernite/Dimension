@@ -11,8 +11,9 @@
  * file per style scope.
  *
  *= require bootstrap.min
- *= require welcome.css
+ *= require font-awesome.min
  *= require stylish-portfolio.css
+ *= require welcome.css
  *= require_tree .
  *= require_self
  */
