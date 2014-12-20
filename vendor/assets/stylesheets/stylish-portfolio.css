@@ -6,6 +6,7 @@
 
 /* Global Styles */
 
+
 html,
 body {
     width: 100%;
@@ -34,7 +35,7 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #1AB1AC;
 }
 
 .btn-dark:hover,
