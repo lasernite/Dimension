@@ -2,8 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#pg_title, #pg_subtitle {
+#pg_title {
   color: white;
+  text-shadow: 6px 6px 5px black;
+}
+
+#pg_subtitle {
+  color: white;
+  text-shadow: 2px 2px 1px black;
 }
 
 .third_block {
@@ -27,4 +33,15 @@
 }
 
 #lets_create {
+}
+
+// Mobile Version CSS
+
+@media (max-width: 800px) {
+	
+	.header {
+		background: url(../images/bg_mobile.jpg) no-repeat center center scroll;
+	}
+
+
 }
